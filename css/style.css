@@ -1,0 +1,200 @@
+  ul {
+      list-style-type: none;
+  }
+
+  a {
+      text-decoration: none;
+      color: #8c8c8c;
+      font: 300 16px 'Titillium Web', sans-serif;
+      cursor: pointer;
+  }
+
+  a:hover {
+      color: #00b5cc;
+  }
+
+  label {
+      font-weight: bold;
+  }
+
+  h1 {
+      font: 700 25px 'Titillium Web', sans-serif;
+  }
+
+  /*******************************MENU********************************************************/
+  .menu {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row;
+      flex-flow: row;
+      -webkit-flex: 1 1 100%;
+      flex: 1 1 100%;
+      background-color: #1a1a1a;
+      border-bottom: 1px solid #00b5cc;
+      padding: 10px;
+      color: #8c8c8c;
+      font: 300 16px 'Titillium Web', sans-serif;
+  }
+
+  .menu ul li {
+      float: left;
+      margin-right: 30px;
+      color: #FFFFFF;
+      font: 300 16px 'Titillium Web', sans-serif;
+  }
+
+  .menu ul li a {
+      color: #FFFFFF;
+  }
+
+  .menu ul li a:hover {
+      color: #00b5cc;
+  }
+  /*******************************CONTENIDO********************************************************/
+
+  .main {
+      min-height: 640px;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row;
+      flex-flow: row;
+      background-color: #efefef;
+  }
+
+  .content {
+      margin: 7%;
+      background-color: #efefef;
+      -webkit-flex: 1 1 30%;
+      flex: 1 1 30%;
+      -webkit-order: 1;
+      order: 2;
+  }
+
+  .login {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+      margin-top: 15%;
+      width: 100%;
+  }
+
+  .login form {
+      margin: 10px 10px 60px 40px;
+  }
+
+  .sidebar {
+      margin: 4px;
+      background-color: #efefef;
+      -webkit-flex: 1 1 35%;
+      flex: 1 1 35%;
+  }
+
+  #sidebar1 {
+      -webkit-order: 1;
+      order: 1;
+  }
+
+  #sidebar2 {
+      -webkit-order: 3;
+      order: 3;
+  }
+
+  .txtInput {
+      height: 30px;
+      width: 80%;
+      padding: 4px;
+      font: 300 15px 'Titillium Web', sans-serif;
+      color: #1a1a1a;
+  }
+
+  .titleLogin {
+      background-color: #00b5cc;
+      border: none;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      width: 100%;
+      height: 30px;
+      margin-bottom: 10px;
+      font: 700 18px 'Titillium Web', sans-serif;
+      vertical-align: middle;
+  }
+
+  .button {
+      background-color: #00b5cc;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 2px;
+      width: 80%;
+      height: 40px;
+      font: 700 15px 'Titillium Web', sans-serif;
+  }
+
+  .buttonLogout {
+      float: right;
+      background-color: #00b5cc;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 2px;
+      height: 40px;
+      font: 700 15px 'Titillium Web', sans-serif;
+  }
+  /*******************************HEADER_FOOTER********************************************************/
+
+  .beforeFooter {
+      background-color: #232323;
+      border-bottom: 1px solid #00b5cc;
+      padding: 20px;
+      color: #8c8c8c;
+      font: 300 16px 'Titillium Web', sans-serif;
+  }
+
+  header,
+  footer {
+      min-height: 80px;
+      display: -webkit-flex;
+      display: flex;
+      padding: 5px 10%;
+  }
+
+  footer h4 {
+      color: #FFFFFF;
+  }
+
+  header {
+      padding-left: 10%;
+  }
+
+  footer {
+      background-color: #232323;
+  }
+
+  .contentFooter {
+      margin: 10px;
+      -webkit-flex: 1 1 20%;
+      flex: 1 1 25%;
+      -webkit-flex-flow: row;
+      flex-flow: row;
+  }
+
+  .contentFooter span {
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+  }
